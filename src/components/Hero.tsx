@@ -35,17 +35,17 @@ export function Hero() {
           Hello, I'm
         </div>
         
-        <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 sm:mb-6">
           <span className="font-bold text-black">Uchenna Emmanuel</span>
           <br/>
           <span className="font-bold text-blue-600">Onyeisi</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        <p className="text-base sm:text-xl md:text-2xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
           Full Stack Developer
         </p>
         
-        <p className="text-lg text-gray-500 mb-12 max-w-3xl mx-auto">
+        <p className="text-sm sm:text-lg text-gray-500 mb-8 sm:mb-12 max-w-3xl mx-auto">
           I am a versatile software developer specializing in both web and mobile app development. 
           I build modern, responsive applications and have hands-on experience across the full stack. 
           I'm passionate about technology, innovation, and creating clean, user-focused solutions. 
@@ -53,16 +53,18 @@ export function Hero() {
         </p>
         
         <div className="flex justify-center space-x-4 mb-12">
-          <a href="#contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
-            Get In Touch
-          </a>
-          <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors">
-            View Work
-          </a>
-            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2" style={{ marginLeft: '0.5rem' }}>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
+            <a href="#contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors w-full sm:w-auto text-center">
+              Get In Touch
+            </a>
+            <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors w-full sm:w-auto text-center">
+              View Work
+            </a>
+            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2 w-full sm:w-auto justify-center" style={{marginLeft: 0}}>
               <Download size={20} />
               Download CV
             </a>
+          </div>
         </div>
         
         <div className="flex justify-center space-x-6">
