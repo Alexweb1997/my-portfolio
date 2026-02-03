@@ -54,14 +54,14 @@ export function Hero() {
         
         <div className="flex justify-center space-x-4 mb-12">
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
-            <a href="#contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors w-full sm:w-auto text-center">
+            <a href="#contact" className="bg-gray-900 text-white px-5 py-2 text-sm sm:px-8 sm:py-3 sm:text-base rounded-full hover:bg-gray-800 transition-colors w-full sm:w-auto text-center">
               Get In Touch
             </a>
-            <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors w-full sm:w-auto text-center">
+            <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-5 py-2 text-sm sm:px-8 sm:py-3 sm:text-base rounded-full hover:bg-gray-900 hover:text-white transition-colors w-full sm:w-auto text-center">
               View Work
             </a>
-            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2 w-full sm:w-auto justify-center" style={{marginLeft: 0}}>
-              <Download size={20} />
+            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-5 py-2 text-sm sm:px-8 sm:py-3 sm:text-base rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2 w-full sm:w-auto justify-center" style={{marginLeft: 0}}>
+              <Download size={16} className="sm:w-5 sm:h-5 w-4 h-4" />
               Download CV
             </a>
           </div>
