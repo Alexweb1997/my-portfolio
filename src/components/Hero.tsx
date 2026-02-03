@@ -45,21 +45,24 @@ export function Hero() {
           Full Stack Developer
         </p>
         
-        <p className="text-base md:text-lg text-gray-500 mb-8 md:mb-12 max-w-xs sm:max-w-xl md:max-w-3xl mx-auto leading-relaxed md:leading-normal text-center px-2">
-          I am a versatile software developer specializing in both web and mobile app development. I build modern, responsive applications and have hands-on experience across the full stack. I'm passionate about technology, innovation, and creating clean, user-focused solutions. I'm highly motivated, collaborative, and always excited to learn and take on new challenges.
+        <p className="text-lg text-gray-500 mb-12 max-w-3xl mx-auto">
+          I am a versatile software developer specializing in both web and mobile app development. 
+          I build modern, responsive applications and have hands-on experience across the full stack. 
+          I'm passionate about technology, innovation, and creating clean, user-focused solutions. 
+          I'm highly motivated, collaborative, and always excited to learn and take on new challenges.
         </p>
         
-        <div className="flex flex-col md:flex-row justify-center md:space-x-4 space-y-3 md:space-y-0 mb-10 md:mb-12 items-center w-full max-w-xs sm:max-w-none mx-auto">
-          <a href="#contact" className="w-full md:w-auto bg-gray-900 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors text-center">
+        <div className="flex justify-center space-x-4 mb-12">
+          <a href="#contact" className="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-800 transition-colors">
             Get In Touch
           </a>
-          <a href="#projects" className="w-full md:w-auto border-2 border-gray-900 text-gray-900 px-6 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors text-center">
+          <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors">
             View Work
           </a>
-          <a href="/CV.pdf" download className="w-full md:w-auto border-2 border-gray-900 text-gray-900 px-6 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2 justify-center text-center">
-            <Download size={20} />
-            Download CV
-          </a>
+            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2" style={{ marginLeft: '0.5rem' }}>
+              <Download size={20} />
+              Download CV
+            </a>
         </div>
         
         <div className="flex justify-center space-x-6">
