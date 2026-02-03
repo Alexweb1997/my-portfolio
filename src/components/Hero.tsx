@@ -35,7 +35,7 @@ export function Hero() {
           Hello, I'm
         </div>
         
-        <h1 className="text-5xl md:text-6xl lg:text-7xl mb-6">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6">
           <span className="font-bold text-black">Uchenna Emmanuel</span>
           <br/>
           <span className="font-bold text-blue-600">Onyeisi</span>
@@ -59,10 +59,10 @@ export function Hero() {
           <a href="#projects" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors">
             View Work
           </a>
-          <a href="#" className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2">
-            <Download size={20} />
-            Download CV
-          </a>
+            <a href="/CV.pdf" download className="border-2 border-gray-900 text-gray-900 px-8 py-3 rounded-full hover:bg-gray-900 hover:text-white transition-colors inline-flex items-center gap-2" style={{ marginLeft: '0.5rem' }}>
+              <Download size={20} />
+              Download CV
+            </a>
         </div>
         
         <div className="flex justify-center space-x-6">

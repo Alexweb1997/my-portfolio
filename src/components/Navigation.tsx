@@ -62,6 +62,13 @@ export function Navigation() {
             <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100 rounded">
               Contact
             </button>
+            <a
+              href="/CV.pdf"
+              download
+              className="block w-full text-left px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded shadow mt-2"
+            >
+              Download CV
+            </a>
           </div>
         )}
       </div>
